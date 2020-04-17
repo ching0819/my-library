@@ -15,63 +15,63 @@
 * [003](https://github.com/ching0819/my-library/blob/master/practice/practice_003.ipynb) **DataFrame基礎操作**: 
     * 創建
     * 讀檔: `pd.read_csv()`
-    * 檢視: 
-    `df.head()` 查看前五列觀測值
-    `df.tail()` 查看末五列觀測值
-    `df.info()` 查看複合資訊
-    `df.describe()` 查看數值變數的描述性統計
-    `df.shape` 查看大小
-    * 選取: 
-    `df.loc[]` 以索引為準
-    `df.iloc[]` 以位置為準
-    `df.isin()` 透過變數內觀察值索引
-    * 排序: 
-    `df.sort_index()` 依照索引排序
-    `df.sort_values()` 依照變數排序
+    * 檢視:  
+    `df.head()` 查看前五列觀測值  
+    `df.tail()` 查看末五列觀測值  
+    `df.info()` 查看複合資訊  
+    `df.describe()` 查看數值變數的描述性統計  
+    `df.shape` 查看大小  
+    * 選取:   
+    `df.loc[]` 以索引為準  
+    `df.iloc[]` 以位置為準  
+    `df.isin()` 透過變數內觀察值索引  
+    * 排序:   
+    `df.sort_index()` 依照索引排序  
+    `df.sort_values()` 依照變數排序  
     * 新增: 新增變數、新增觀察值
     * 統計摘要: `df.sum()`
     
 * [004](https://github.com/ching0819/my-library/blob/master/practice/practice_004.ipynb) **DataFrame進階操作**: 
     * 調整變數型別: `df.astype()`
     * 重新編碼: `df.map()`
-    * 處理缺值: 
-    `df.isna()` 判斷是否缺值
-    `df.notna()` 判斷是否有值
-    `df.fillna()` 填補所有缺值
+    * 處理缺值:   
+    `df.isna()` 判斷是否缺值  
+    `df.notna()` 判斷是否有值  
+    `df.fillna()` 填補所有缺值  
     * 處理時序: `df.to_datetime()`
     * 設定索引: `df.set_index()`
-    * 表格轉置: 
-    `df.stack()` 寬表格轉長表格
-    `df.unstack()` 長表格轉寬表格
-    * 合併: 
-    `pd.merge()` 
-    `df.join()` 
-    `pd.concat()`
+    * 表格轉置:   
+    `df.stack()` 寬表格轉長表格  
+    `df.unstack()` 長表格轉寬表格  
+    * 合併:   
+    `pd.merge()`   
+    `df.join()`   
+    `pd.concat()`  
     * 重塑: `df.pivot()`
 * [005](https://github.com/ching0819/my-library/blob/master/practice/practice_005.ipynb) **文字處理**: 
     * 測量長度: `len()`
-    * 擷取: 
-    `.upper()` 全部變大寫
-    `.lower()` 全部變小寫
-    `.title()` 單字字首大寫
-    `.capitalize()` 字手變成大寫
-    `.swapcase()` 大小寫轉換
-    * 去除空格: 
-    `.lstrip()` 去除左邊空格
-    `.rstrip()` 去除右邊空格
-    `.strip()` 去除左右兩邊空格
+    * 擷取:   
+    `.upper()` 全部變大寫  
+    `.lower()` 全部變小寫  
+    `.title()` 單字字首大寫  
+    `.capitalize()` 字手變成大寫  
+    `.swapcase()` 大小寫轉換  
+    * 去除空格:   
+    `.lstrip()` 去除左邊空格  
+    `.rstrip()` 去除右邊空格  
+    `.strip()` 去除左右兩邊空格  
     * 格式化輸出: {} 搭配 `.format()`
-    * 轉換日期時間格式: 
-    %a ：縮寫的星期幾，從 Sun 至 Sat
-    %A ：全稱的星期幾，從 Sunday 至 Saturday
-    %b ：縮寫的月份，從 Jan 至 Dec
-    %B ：全稱的月份，從 January 至 December
-    %d ：月份中的第幾天，從 01 至 31
-    %m ：以兩位數字表示的月份，從 01 至 12
-    %Y ：以四位數字表示的西元年份，從 0 至 9999
-    %H ：以兩位數字表示的小時，從 00 至 23
-    %M ：以兩位數字表示的分鐘，從 00 至 59
-    %S ：以兩位數字表示的秒數，從 00 至 61
+    * 轉換日期時間格式:   
+    %a ：縮寫的星期幾，從 Sun 至 Sat  
+    %A ：全稱的星期幾，從 Sunday 至 Saturday  
+    %b ：縮寫的月份，從 Jan 至 Dec  
+    %B ：全稱的月份，從 January 至 December  
+    %d ：月份中的第幾天，從 01 至 31  
+    %m ：以兩位數字表示的月份，從 01 至 12  
+    %Y ：以四位數字表示的西元年份，從 0 至 9999  
+    %H ：以兩位數字表示的小時，從 00 至 23  
+    %M ：以兩位數字表示的分鐘，從 00 至 59  
+    %S ：以兩位數字表示的秒數，從 00 至 61  
     * 分隔: `.split()`
     * 判斷存在: `.find()`
     * 取代: `.replace()`
@@ -84,9 +84,9 @@
     * 線圖: `plt.line()`
 * [007](https://github.com/ching0819/my-library/blob/master/practice/practice_007.ipynb) **資料視覺化中的元件**: 
     * 佈景主題: `plt.style.use()`
-    * 圖標題: 
-    `plt.title()` 加入標題
-    `plt.suptitle()` 加入副標題(在畫布更上方的置中位置)
+    * 圖標題:   
+    `plt.title()` 加入標題  
+    `plt.suptitle()` 加入副標題(在畫布更上方的置中位置)  
     * 軸標題: `pl.xlabel()` `plt.ylabel()`
     * 軸刻度、刻度標籤: `plt.xticks()` `plt.yticks()`
     * 調整座標軸(最大最小值):`plt.xlim()` `plt.ylim()` 
