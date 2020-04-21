@@ -48,6 +48,7 @@
     `df.join()`   
     `pd.concat()`  
     * 重塑: `df.pivot()`
+    
 * [005](https://github.com/ching0819/my-library/blob/master/practice/practice_005.ipynb) **文字處理**: 
     * 測量長度: `len()`
     * 擷取:   
@@ -76,12 +77,14 @@
     * 判斷存在: `.find()`
     * 取代: `.replace()`
     * 正規表達式
+    
 * [006](https://github.com/ching0819/my-library/blob/master/practice/practice_006.ipynb) **基礎資料視覺化**: 
     * 長條圖: `plt.bar()`
     * 直方圖: `plt.hist()`
     * 盒鬚圖: `plt.boxplot()`
     * 散點圖: `plt.scatter()`
     * 線圖: `plt.line()`
+    
 * [007](https://github.com/ching0819/my-library/blob/master/practice/practice_007.ipynb) **資料視覺化中的元件**: 
     * 佈景主題: `plt.style.use()`
     * 圖標題:   
@@ -97,7 +100,16 @@
     * 陰影: `plt.fill_between()`
     * 添加箭頭: `plt.annotate()`
     * 子圖形: `plt.subplts(m, n)` 將畫布切割成 m 乘 n 的外觀
+    
 * [008](https://github.com/ching0819/my-library/blob/master/practice/practice_008.ipynb) **其他視覺化類型**: 
+    * 樹狀圖(Treemap): `squarify.plot()`
+    * 棒棒糖圖(Lollipop): `plt.plot()`+`plt.hline()`
+    * 密度圖(Density plot): `sns.kdeplot` 
+    * 堆疊密度圖:`sns.kdeplot() ` or `subplots()`
+    * 小提琴圖(Violin plot): `sns.violinplot() `
+    * 熱圖(heatmap): `sns.heatmap()`
+    * Candlestick圖: `import plotly.graph_objs as go` `go.Candlestick`
+    * Choropleth map
 
 
 
