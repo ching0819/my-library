@@ -118,6 +118,12 @@
     * 使用模組或套件尋找係數
     * 將模型繪製到散佈圖上
 
+* [010](https://github.com/ching0819/my-library/blob/master/practice/practice_010.ipynb) **迴歸模型的評估**: 
+    * 標準化 `from sklearn.preprocessing import StandardScaler`
+    * 均方誤差(Mean Squared Error, MSE) `from sklearn.metrics import mean_squared_error`
+    * 增加變數平方項 `from sklearn.preprocessing import PolynomialFeatures`
+    * 交叉驗證 `from sklearn.model_selection import KFold`
+    * 正規化 `from sklearn.linear_model import Ridge`
 
 
 # note
