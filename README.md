@@ -118,6 +118,7 @@
     * 使用模組或套件尋找係數
     * 將模型繪製到散佈圖上
 
+
 * [010](https://github.com/ching0819/my-library/blob/master/practice/practice_010.ipynb) **迴歸模型的評估**: 
     * 標準化 `from sklearn.preprocessing import StandardScaler`
     * 均方誤差(Mean Squared Error, MSE) `from sklearn.metrics import mean_squared_error`
@@ -125,6 +126,13 @@
     * 交叉驗證 `from sklearn.model_selection import KFold`
     * 正規化 `from sklearn.linear_model import Ridge`
 
+* [011](https://github.com/ching0819/my-library/blob/master/practice/practice_011.ipynb) **尋找羅吉斯迴歸的係數**: 
+    * sigmoid函數
+    * 成本函數
+    * 尋找羅吉斯迴歸的係數
+    * step函數
+    * 使用模組與套件尋找係數 `from sklearn.linear_model import LogisticRegression`
+    * 在散佈圖繪製決策邊界
 
 # note
 ### 寫程式時的筆記
