@@ -110,12 +110,12 @@
 * [009](https://github.com/ching0819/my-library/blob/master/practice/practice_009.ipynb) **尋找迴歸模型的係數**: 
     * 拆分 訓練 / 驗證 / 測試資料
     * 用相關係數篩選變數
-    * 尋找係數
+    * 手刻，尋找係數
     * 正規方程
     * 梯度遞減
     * 繪製3D曲面圖
     * 繪製動態曲面圖 *有error尚未未修正*
-    * 使用模組或套件尋找係數
+    * 使用模組或套件，尋找係數
     * 將模型繪製到散佈圖上
 
 
@@ -129,10 +129,18 @@
 * [011](https://github.com/ching0819/my-library/blob/master/practice/practice_011.ipynb) **尋找羅吉斯迴歸的係數**: 
     * sigmoid函數
     * 成本函數
-    * 尋找羅吉斯迴歸的係數
+    * 手刻，尋找係數
     * step函數
-    * 使用模組與套件尋找係數 `from sklearn.linear_model import LogisticRegression`
+    * 使用模組與套件，尋找係數 `from sklearn.linear_model import LogisticRegression`
     * 在散佈圖繪製決策邊界
+
+* [012](https://github.com/ching0819/my-library/blob/master/practice/practice_012.ipynb) **分類模型的評估**: 
+    * 混淆矩陣 (confusion Matrix)
+    * 手刻，計算 Accuracy
+    * 使用模組與套件，計算 Accuracy `from sklearn.metrics import confusion_matrix, accuracy_score`
+    * 建立非線性決策邊界 `from sklearn.preprocessing import PolynomialFeatures`
+    * 正規化 `from sklearn.linear_model import RidgeClassifier`
+    * 多元分類
 
 # note
 ### 寫程式時的筆記
